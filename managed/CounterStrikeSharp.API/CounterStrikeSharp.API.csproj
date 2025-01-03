@@ -63,7 +63,7 @@
         </Exec>
     </Target>
     <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-      <Exec Command="call copy.bat" />
+      <Exec Command="call api.bat" />
     </Target>
 
     <!--  <Target Name="PreBuild" BeforeTargets="PreBuildEvent">-->
